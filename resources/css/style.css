@@ -1,3 +1,12 @@
+body {
+	font-size: 18px;
+}
+
+h1, h3 {
+	text-transform: uppercase;
+	color: white;
+}
+
 .header {
 	display: inline-flex;
 	align-items: center;
@@ -9,11 +18,6 @@
 
 .site-name {
 	padding-left: 30px;
-}
-
-h1, h3 {
-	text-transform: uppercase;
-	color: white;
 }
 
 .content-body {
