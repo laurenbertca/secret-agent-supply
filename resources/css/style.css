@@ -85,7 +85,7 @@ footer {
 	width: 20rem;
 	margin-top: 9rem;
 	font-weight: bold;
-	padding: 3rem 2rem;
+	padding: 2rem 3rem;
 	justify-content: center;
 }
 
@@ -224,6 +224,51 @@ footer {
 
 }
 
-@media only screen and (max-width: 470px)
+@media only screen and (max-width: 470px) {
+	
+	.new-arrivals {
+		height: 15rem;
+	}
+
+	.arrivals-language {
+		margin-top: 10rem
+		padding: 1rem 2rem;
+	}
+
+	.arrivals-language h3 {
+		font-size: 0.77rem;
+	}
+
+	.arrivals-language h1 {
+		font-size: 1rem;
+	}
+
+	#watch {
+		display: none;
+	}
+
+	.featured-items-section {
+		justify-content: center;
+	}
+
+	.featured-item {
+		width: 90%;
+		height: auto;
+	}
+
+	.contact-info {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.contact-item {
+		min-width: 90%;
+		margin-top: 0.5rem;
+	}
+
+	.footer {
+		justify-content: center;
+	}
+}
 
 
